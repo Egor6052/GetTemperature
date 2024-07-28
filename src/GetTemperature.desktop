@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=GetTemperature
+Exec=/home/admin1/Стільниця/Cpp/Test1/src/GetTemperature
+Icon=/home/admin1/Стільниця/Cpp/Test1/src/icon.jpg
+Type=Application

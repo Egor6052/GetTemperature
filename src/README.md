@@ -10,15 +10,21 @@ path to "GetTemperature" and "icon.jpg".
 For those who want to edit and recompile the code, the following commands can be used:
 
 Installing the required libraries:
+```
 sudo apt-get install libsfml-dev
-
+```
 Compile the program:
+```
 g++ -o GetTemperature GetTemperatureSFML.cpp -lsfml-graphics -lsfml-window -lsfml-system
-
+```
+or
+```
+make -f Makefile
+```
 
 # UKR
 Програма дозволяє продивитися температуру процесору та відеокарти.
-Програма сумісна з Linux та выдеокартами АМД.
+Програма сумісна з Linux та відеокартами АМД.
 
 Для запуску, потрібно два рази нажати на файл "GetTemperature". 
 Для того, щоб розмістити додаток собі на домашній екран, можна 
@@ -28,7 +34,14 @@ g++ -o GetTemperature GetTemperatureSFML.cpp -lsfml-graphics -lsfml-window -lsfm
 Для тих, хто хоче редагувати та скомпілювати  код заново, можна використати такі команди:
 
 Встановлення необхідних бібліотек:
+```
 sudo apt-get install libsfml-dev
-
+```
 Компіляція програми:
+```
 g++ -o GetTemperature GetTemperatureSFML.cpp -lsfml-graphics -lsfml-window -lsfml-system
+```
+або
+```
+make -f Makefile
+```

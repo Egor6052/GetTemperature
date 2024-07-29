@@ -60,8 +60,40 @@ public:
 
     // Для NVIDIA
     // float getNvidiaGPUTemperature() {
-    //     // Ваш код для NVIDIA
-    //     return -1; // Поверніть значення за замовчуванням
+    //     nvmlReturn_t result;
+    //     result = nvmlInit();
+    //     if (NVML_SUCCESS != result) {
+    //         cerr << "Failed to initialize NVML: " << nvmlErrorString(result) << endl;
+    //         return -1;
+    //     }
+
+    //     unsigned int deviceCount;
+    //     result = nvmlDeviceGetCount(&deviceCount);
+    //     if (NVML_SUCCESS != result) {
+    //         cerr << "Failed to query device count: " << nvmlErrorString(result) << endl;
+    //         nvmlShutdown();
+    //         return -1;
+    //     }
+
+    //     nvmlDevice_t device;
+    //     result = nvmlDeviceGetHandleByIndex(0, &device);
+    //     if (NVML_SUCCESS != result) {
+    //         cerr << "Failed to get handle for device: " << nvmlErrorString(result) << endl;
+    //         nvmlShutdown();
+    //         return -1;
+    //     }
+
+    //     unsigned int temperature;
+    //     result = nvmlDeviceGetTemperature(device, NVML_TEMPERATURE_GPU, &temperature);
+    //     if (NVML_SUCCESS != result) {
+    //         cerr << "Failed to get temperature: " << nvmlErrorString(result) << endl;
+    //         nvmlShutdown();
+    //         return -1;
+    //     }
+
+    //     nvmlShutdown();
+    //     return static_cast<float>(temperature);
+
     // }
 
     // Загальне

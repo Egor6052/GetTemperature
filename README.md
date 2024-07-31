@@ -1,6 +1,6 @@
 # US
 The program allows you to see the temperature of the processor and video card.
-This program is compatible with Linux and AMD video cards.
+This program is compatible with Linux and AMD and Intel video cards.
 
 To start, you need to double-click on the "GetTemperature" file. 
 In order to place the application on your home screen, you can move 
@@ -24,7 +24,7 @@ make -f Makefile
 
 # UKR
 Програма дозволяє продивитися температуру процесору та відеокарти.
-Програма сумісна з Linux та відеокартами АМД.
+Програма сумісна з Linux та відеокартами AMD та Intel.
 
 Для запуску, потрібно два рази нажати на файл "GetTemperature". 
 Для того, щоб розмістити додаток собі на домашній екран, можна 
